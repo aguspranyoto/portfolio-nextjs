@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
@@ -52,7 +54,7 @@ export default function Home() {
             </div>
             <div className="mx-auto grid gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="group rounded-lg bg-white shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:hover:shadow-md">
-                <img
+                <Image
                   src="https://placehold.co/420x240"
                   width="420"
                   height="240"
@@ -70,7 +72,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="group rounded-lg bg-white shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:hover:shadow-md">
-                <img
+                <Image
                   src="https://placehold.co/420x240"
                   width="420"
                   height="240"
@@ -88,7 +90,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="group rounded-lg bg-white shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:hover:shadow-md">
-                <img
+                <Image
                   src="https://placehold.co/420x240"
                   width="420"
                   height="240"
@@ -234,7 +236,7 @@ export default function Home() {
                     </li>
                   </ul>
                 </div>
-                <img
+                <Image
                   src="https://placehold.co/420x240"
                   width="310"
                   height="310"
