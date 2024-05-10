@@ -55,7 +55,7 @@ export default function Home() {
             <div className="mx-auto grid gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="group rounded-lg bg-white shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:hover:shadow-md">
                 <Image
-                  src="https://placehold.co/420x240"
+                  src="https://placehold.co/420x240/png"
                   width="420"
                   height="240"
                   alt="Project 1"
@@ -73,7 +73,7 @@ export default function Home() {
               </div>
               <div className="group rounded-lg bg-white shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:hover:shadow-md">
                 <Image
-                  src="https://placehold.co/420x240"
+                  src="https://placehold.co/420x240/png"
                   width="420"
                   height="240"
                   alt="Project 2"
@@ -91,7 +91,7 @@ export default function Home() {
               </div>
               <div className="group rounded-lg bg-white shadow-sm transition-all hover:shadow-md dark:bg-gray-950 dark:hover:shadow-md">
                 <Image
-                  src="https://placehold.co/420x240"
+                  src="https://placehold.co/420x240/png"
                   width="420"
                   height="240"
                   alt="Project 3"
@@ -237,9 +237,9 @@ export default function Home() {
                   </ul>
                 </div>
                 <Image
-                  src="https://placehold.co/420x240"
-                  width="310"
-                  height="310"
+                  src="https://placehold.co/420x240/png"
+                  width={420}
+                  height={240}
                   alt="About"
                   className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
                 />
@@ -260,61 +260,6 @@ export default function Home() {
                 Have a project in mind or just want to say hello? Fill out the
                 form below and I'll get back to you as soon as possible.
               </p>
-            </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex flex-col space-y-4">
-                <div className="space-y-2">
-                  <label
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                    for="name"
-                  >
-                    Name
-                  </label>
-                  <input
-                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    id="name"
-                    placeholder="John Doe"
-                    required=""
-                    type="text"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                    for="email"
-                  >
-                    Email
-                  </label>
-                  <input
-                    className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    id="email"
-                    placeholder="john@example.com"
-                    required=""
-                    type="email"
-                  />
-                </div>
-                <div className="space-y-2">
-                  <label
-                    className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                    for="message"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    className="flex min-h-[80px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                    id="message"
-                    placeholder="How can I help you today?"
-                    rows="4"
-                    required=""
-                  ></textarea>
-                </div>
-                <button
-                  className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full"
-                  type="submit"
-                >
-                  Send Message
-                </button>
-              </form>
             </div>
           </div>
         </section>
